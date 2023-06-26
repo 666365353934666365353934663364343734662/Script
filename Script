@@ -11769,7 +11769,6 @@ runFunction(function()
 	})
 end)
 
-your_key_here = "Key1"
 
 local keys = {
     "Key1",
