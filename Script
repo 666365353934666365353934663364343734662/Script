@@ -12,10 +12,10 @@ for i,v in pairs(keys) do
     keys = ""
     game.Players.LocalPlayer:Kick("Not a valid key!")
     else
-        if v == _G.Key then
+        if v == your_key_here then
             --Whitelisted!
             print("Successfully whitelisted!")
-            keyCheck = _G.Key
+            keyCheck = your_key_here
             keys = ""
         else
             counter = counter +1
@@ -24,10 +24,10 @@ for i,v in pairs(keys) do
 end
 
 while true do
-    if _G.Key == keyCheck then
+    if your_key_here == keyCheck then
         --Not spoofed
     else
-        game.Players.LocalPlayer:Kick("Do not try and spoof your key!")
+        game.Players.LocalPlayer:Kick("Dm L3#4602 or ggkz for key!")
     end
     wait()
 end
